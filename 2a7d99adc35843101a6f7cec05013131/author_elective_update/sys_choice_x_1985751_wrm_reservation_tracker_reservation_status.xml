@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="reservation_status" table="x_1985751_wrm_reservation_tracker" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>reservation_status</element>
+            <name>x_1985751_wrm_reservation_tracker</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-17 12:07:01</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>reservation_status</sys_name>
+            <sys_package display_value="Workspace Reservation Management" source="x_1985751_wrm">2a7d99adc35843101a6f7cec05013131</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Workspace Reservation Management">2a7d99adc35843101a6f7cec05013131</sys_scope>
+            <sys_update_name>sys_choice_x_1985751_wrm_reservation_tracker_reservation_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-17 12:07:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reservation_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending check-in</label>
+            <language>en</language>
+            <name>x_1985751_wrm_reservation_tracker</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-17 12:07:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-17 12:07:30</sys_updated_on>
+            <value>pending _check-in</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reservation_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Checked-in</label>
+            <language>en</language>
+            <name>x_1985751_wrm_reservation_tracker</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-17 12:07:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-17 12:07:51</sys_updated_on>
+            <value>checked-in</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reservation_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Checked-out</label>
+            <language>en</language>
+            <name>x_1985751_wrm_reservation_tracker</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-17 12:08:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-17 12:08:13</sys_updated_on>
+            <value>checked-out</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reservation_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No-show</label>
+            <language>en</language>
+            <name>x_1985751_wrm_reservation_tracker</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-17 12:09:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-17 12:09:18</sys_updated_on>
+            <value>no-show</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
