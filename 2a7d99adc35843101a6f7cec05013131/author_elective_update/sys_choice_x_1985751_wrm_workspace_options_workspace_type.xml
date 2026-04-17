@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="workspace_type" table="x_1985751_wrm_workspace_options" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>workspace_type</element>
+            <name>x_1985751_wrm_workspace_options</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-17 08:36:26</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>workspace_type</sys_name>
+            <sys_package display_value="Workspace Reservation Management" source="x_1985751_wrm">2a7d99adc35843101a6f7cec05013131</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Workspace Reservation Management">2a7d99adc35843101a6f7cec05013131</sys_scope>
+            <sys_update_name>sys_choice_x_1985751_wrm_workspace_options_workspace_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-17 08:36:26</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workspace_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Collaboration Space</label>
+            <language>en</language>
+            <name>x_1985751_wrm_workspace_options</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-17 11:46:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-17 11:46:22</sys_updated_on>
+            <value>Collaboration Space</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workspace_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Focus Room</label>
+            <language>en</language>
+            <name>x_1985751_wrm_workspace_options</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-17 11:46:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-17 11:46:22</sys_updated_on>
+            <value>Focus Room</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workspace_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hot Desk</label>
+            <language>en</language>
+            <name>x_1985751_wrm_workspace_options</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-17 11:46:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-17 11:46:22</sys_updated_on>
+            <value>Hot Desk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workspace_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meeting Room</label>
+            <language>en</language>
+            <name>x_1985751_wrm_workspace_options</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-17 11:46:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-17 11:46:22</sys_updated_on>
+            <value>Meeting Room</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workspace_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hot desk</label>
+            <language>en</language>
+            <name>x_1985751_wrm_workspace_options</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-17 08:36:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-17 11:06:54</sys_updated_on>
+            <value>hot_desk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workspace_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Focus room</label>
+            <language>en</language>
+            <name>x_1985751_wrm_workspace_options</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-17 11:07:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-17 11:07:19</sys_updated_on>
+            <value>focus_room</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workspace_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Collaboration space</label>
+            <language>en</language>
+            <name>x_1985751_wrm_workspace_options</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-17 11:07:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-17 11:07:46</sys_updated_on>
+            <value>collaboration_space</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workspace_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meeting room</label>
+            <language>en</language>
+            <name>x_1985751_wrm_workspace_options</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-17 11:08:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-17 11:08:20</sys_updated_on>
+            <value>meeting_room</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

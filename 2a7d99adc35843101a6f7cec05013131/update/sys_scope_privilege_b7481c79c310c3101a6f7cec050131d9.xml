@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Workspace Reservation Management">2a7d99adc35843101a6f7cec05013131</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 11:43:34</sys_created_on>
+        <sys_id>b7481c79c310c3101a6f7cec050131d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide API: scripting</sys_name>
+        <sys_package display_value="Workspace Reservation Management" source="x_1985751_wrm">2a7d99adc35843101a6f7cec05013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Reservation Management">2a7d99adc35843101a6f7cec05013131</sys_scope>
+        <sys_update_name>sys_scope_privilege_b7481c79c310c3101a6f7cec050131d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 11:43:34</sys_updated_on>
+        <target_name>Glide API: scripting</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

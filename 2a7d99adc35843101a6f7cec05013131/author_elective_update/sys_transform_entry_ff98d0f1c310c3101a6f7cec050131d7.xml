@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Workspace TM">6658dc79c310c3101a6f7cec0501312b</map>
+        <reference_value_field/>
+        <source_field>u_image</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_1985751_wrm_workspace_import</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 11:44:56</sys_created_on>
+        <sys_id>ff98d0f1c310c3101a6f7cec050131d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_image</sys_name>
+        <sys_package display_value="Workspace Reservation Management" source="x_1985751_wrm">2a7d99adc35843101a6f7cec05013131</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Reservation Management">2a7d99adc35843101a6f7cec05013131</sys_scope>
+        <sys_update_name>sys_transform_entry_ff98d0f1c310c3101a6f7cec050131d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 11:44:56</sys_updated_on>
+        <target_field>image</target_field>
+        <target_table>x_1985751_wrm_workspace_options</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Workspace Reservation Management">2a7d99adc35843101a6f7cec05013131</application>
+        <file_path/>
+        <instance_id>937ea467db22755439639027c59619fc</instance_id>
+        <instance_name>dev221139</instance_name>
+        <name>sys_transform_entry_ff98d0f1c310c3101a6f7cec050131d7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Workspace TM"&gt;6658dc79c310c3101a6f7cec0501312b&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_image&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_1985751_wrm_workspace_import&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-17 11:44:56&lt;/sys_created_on&gt;&lt;sys_id&gt;ff98d0f1c310c3101a6f7cec050131d7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_image&lt;/sys_name&gt;&lt;sys_package display_value="Workspace Reservation Management" source="x_1985751_wrm"&gt;2a7d99adc35843101a6f7cec05013131&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Workspace Reservation Management"&gt;2a7d99adc35843101a6f7cec05013131&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_ff98d0f1c310c3101a6f7cec050131d7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-17 11:44:56&lt;/sys_updated_on&gt;&lt;target_field&gt;image&lt;/target_field&gt;&lt;target_table&gt;x_1985751_wrm_workspace_options&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>167814429</payload_hash>
+        <record_name>u_image</record_name>
+        <reverted_from/>
+        <source>9b8e9d21c39843101a6f7cec050131a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 11:44:56</sys_created_on>
+        <sys_id>779818b9c310c3101a6f7cec05013146</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d9b4223400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 11:44:56</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>379818b9a410c31024b67fc268367445</update_guid>
+        <update_guid_history>379818b9a410c31024b67fc268367445:167814429</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 11:45:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>31ccc6921fd24ab0aead93a9f8f26004</sys_id>
+        <sys_metadata>ff98d0f1c310c3101a6f7cec050131d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_image</sys_name>
+        <sys_package display_value="Workspace Reservation Management" source="x_1985751_wrm">2a7d99adc35843101a6f7cec05013131</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Workspace Reservation Management">2a7d99adc35843101a6f7cec05013131</sys_scope>
+        <sys_scope_delete display_value="">24a0f81a36ab4dce93460fc51263f6a9</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_ff98d0f1c310c3101a6f7cec050131d7</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_ff98d0f1c310c3101a6f7cec050131d7">779818b9c310c3101a6f7cec05013146</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 11:45:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

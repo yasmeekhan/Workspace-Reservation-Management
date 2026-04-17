@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c83c2fa1c3d883101a6f7cec05013165" label="Workspace Options" max_length="40" name="x_1985751_wrm_workspace_options" type="collection">
+        <element label="Workspace description" max_length="1000" name="workspace_description" type="string"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="10" value="available"/>
+                <element inactive_on_update="false" label="Unavailable" sequence="20" value="unavailable"/>
+                <element inactive_on_update="false" label="Under Maintenance" sequence="0" value="Under Maintenance"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="40" value="decommissioned"/>
+                <element inactive_on_update="false" label="Under maintenance" sequence="30" value="under_maintenance"/>
+            </choice>
+        </element>
+        <element label="Workspace name" max_length="40" name="workspace_name" type="string"/>
+        <element choice="1" label="Workspace type" max_length="40" name="workspace_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hot Desk" sequence="0" value="Hot Desk"/>
+                <element inactive_on_update="false" label="Collaboration space" sequence="30" value="collaboration_space"/>
+                <element inactive_on_update="false" label="Collaboration Space" sequence="0" value="Collaboration Space"/>
+                <element inactive_on_update="false" label="Meeting Room" sequence="0" value="Meeting Room"/>
+                <element inactive_on_update="false" label="Meeting room" sequence="40" value="meeting_room"/>
+                <element inactive_on_update="false" label="Focus room" sequence="20" value="focus_room"/>
+                <element inactive_on_update="false" label="Hot desk" sequence="10" value="hot_desk"/>
+                <element inactive_on_update="false" label="Focus Room" sequence="0" value="Focus Room"/>
+            </choice>
+        </element>
+        <element label=" Max occupancy" max_length="40" name="max_occupancy" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+    </element>
+</database>
